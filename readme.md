@@ -31,7 +31,7 @@ Usage
 
 ### Examples
 
-    var sapi = require('sapi');
+    var sapi = require('sensis-sapi');
 
     var options = {
       key: 'XXXXXXXX', //Set to your API key
@@ -47,9 +47,16 @@ Usage
     }
 
     //Query SAPI
-    sapi(query, options, function(cb){
-      console.log("Your closest restaurant is: " + cb);
+    sapi(query, options, function(data){
+      if(data.code===200){
+        return console.log("Your closest restaurant is " + data.results[0].name + " at " + data.results[0].primaryAddress.addressLine + ", " + data.results[0].primaryAddress.suburb);
+      } 
+      return console.log(data);
     });
+
+    //node app.js returns > Your closest restaurant is 304 On West at 304 West St, Umina Beach
+
+
 
 Fun Fact!
 ------
