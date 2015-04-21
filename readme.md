@@ -51,14 +51,18 @@ Usage
       console.log("Your closest restaurant is: " + cb);
     });
 
+Fun Fact!
+------
+"SAPI", the acronym used for Sensis API, is also the Indonesian word for "cow". see (<http://id.wikipedia.org/wiki/Sapi>)
+
 To-Do
 -----
-* see (<https://github.com/emerleite/node-gravatar/issues>)
+* see (<https://github.com/MobiliseMe/sapi/issues>)
 
 Author
 ------
 
-* Mobilise Me (<http://mobilisme.com.au/>)
+* Mobilise Me (<http://mobiliseme.com.au/>)
 
 License:
 --------
