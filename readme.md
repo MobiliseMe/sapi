@@ -10,7 +10,7 @@ Dependencies
 
 Installation
 ------------
-> npm install sapi
+> npm install sensis-sapi
 
 Usage
 ------

@@ -1,5 +1,5 @@
 {
-  "name": "sapi",
+  "name": "sensis-sapi",
   "version": "1.0.0",
   "description": "A Node.js library for the Sensis.com.au API (SAPI)",
   "main": "index.js",
