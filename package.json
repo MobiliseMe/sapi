@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "A Node.js library for the Sensis.com.au API (SAPI)",
   "main": "index.js",
-  "keywords": [
-    "Sensis",
-    "Sapi",
-    "Node",
-    "API"
-  ],
+  "engines" : { "node" : ">=0.8.0" },
+  "repository" : { "type": "git", "url": "git://github.com/MobiliseMe/sapi.git" },
+  "keywords": ["Sensis", "Sapi", "Node", "API"],
   "author": "Mobilise Me",
   "license": "MIT",
   "dependencies": {
