@@ -6,7 +6,7 @@
   "engines" : { "node" : ">=0.8.0" },
   "repository" : { "type": "git", "url": "git://github.com/MobiliseMe/sapi.git" },
   "keywords": ["Sensis", "Sapi", "Node", "API"],
-  "author": "Mobilise Me",
+  "author": "Mobilise Me <dean@mobiliseme.com.au> (http://mobiliseme.com.au)",
   "license": "MIT",
   "dependencies": {
     "querystring": "^0.2.0",
