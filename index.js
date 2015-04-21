@@ -1,1 +1,1 @@
-module.exports = require('./lib/sensis');
+module.exports = require('./lib/sapi');
